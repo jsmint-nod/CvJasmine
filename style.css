@@ -1,0 +1,97 @@
+.navbar-brand img {
+    height: 40px; 
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px; 
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e1a6ca;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+
+main {
+    padding-top: 70px; 
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.custom-logo { 
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+
+.navbar-nav .btn-outline-light {
+    border-color: #fff !important;
+    color: #fff !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .btn-outline-light:hover {
+    background-color: #ffd700 !important;
+    color: #333 !important;
+}
+
+
+#introduction { 
+    background: linear-gradient(to right, hsl(291, 51%, 74%), #0056b3);
+    color: #fff;
+    padding: 80px 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+#introduction img {
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    margin-top: 50px;
+    color: #bbb;
+}
